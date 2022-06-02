@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - return the interger 0 from the main function
+ * main - return the integal 0 from the main function
  *
  * Description:"with proper grammer, but the outcome is a piece of art,"
  *
- * Return> 0 from the main function
+ * Return: o from the main function
  *
  */
 
