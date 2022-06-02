@@ -5,7 +5,7 @@
  *
  * Description: print the size of diffirent characters and words
  *
- * Return: Always succes return o
+ * Return: Always succes return 0
  *
  */
 
