@@ -3,7 +3,7 @@
 /**
  * main - return integal of 0
  *
- * Description: print the size of different characters and words
+ * Description: print the size of diffirent characters and words
  *
  * Return: Always succes return o
  *
