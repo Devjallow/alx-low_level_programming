@@ -6,7 +6,7 @@
  *
  * Description: use to print to standard ouput in the main function
  *
- * return: return the value 1
+ * Return: return the value 1
  *
  */
 
