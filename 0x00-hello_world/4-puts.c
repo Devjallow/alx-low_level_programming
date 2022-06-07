@@ -3,14 +3,14 @@
 /**
  * main - Entry point
  *
-* Description: print the exac given string
-*
-* Return: return 0
-*/
+ * Description: prints the given text
+ *
+ * Return: return 0
+ */
 
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
 }
