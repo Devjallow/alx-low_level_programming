@@ -16,12 +16,14 @@ int main(void)
 	{
 		putchar(i);
 	}
+	putchar('\n');
 	if (i != 57)
+	
 	{
 		putchar(',');
 		putchar(' ');
 	}
-	putchar('\n');
+	
 
 	return (0);
 }
