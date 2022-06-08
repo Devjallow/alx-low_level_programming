@@ -1,17 +1,16 @@
 #include "main.h"
 
 /**
- * main - printsthe aphae alphabets 10 time
+ * print_alphabet_x10 - prints the alphabet 10 times
  *
- * Description: print it in lower case
- *
- * Return: return 0
+ * Return: Always return 0
  */
 
 void print_alphabet_x10(void)
 {
 	int j;
 	int x;
+
 	for (x = 0; x < 10; x++)
 	{
 		for (j = 'a'; j <= 'z'; j++)
