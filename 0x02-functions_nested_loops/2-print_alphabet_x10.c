@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - printsthe aphae alphabets 10 times
+ * main - printsthe aphae alphabets 10 time
+ *
+ * Description: print it in lower case
  *
  * Return: return 0
  */
