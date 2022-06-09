@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * int _isupper(int c) - checks for upper characters
+ * _isdigit - checks is c is digit
+ * @c: input value
  *
  * Return: Always return 0 or 1.
  */
 
-int _isiupper(int c)
+int _isdigit(int c)
 {
 	return (c >= '0' && c <= '9');
 }
