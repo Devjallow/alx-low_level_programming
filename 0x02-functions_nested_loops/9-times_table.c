@@ -32,7 +32,7 @@ void times_table(void)
 			else
 			{
 				_putchar(' ');
-				_putchar(produt + 48);
+				_putchar(product + 48);
 			}
 		}
 		_putchar('\n');
