@@ -19,7 +19,7 @@ int main(void)
 
 	for (start_num = 0; start_num < end_num; start_num++)
 	{
-		if ((start_num % 3 == 0) || (start_num % 5 == 0)
+		if ((start_num % 3 == 0) || (start_num % 5 == 0))
 		{
 		total = tolat + start_num;
 		}
@@ -28,7 +28,7 @@ int main(void)
 			continue;
 		}
 	}
-	printf("/d", total);
+	printf("%d", total);
 	printf("\n");
 
 	return (0);
