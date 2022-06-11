@@ -1,4 +1,4 @@
-#inclue "main.c"
+#inclue "main.h"
 
 /**
  * _isupper - prints 1 0r 0
