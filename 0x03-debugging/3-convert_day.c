@@ -27,7 +27,7 @@ int convert_day(int month, int day)
 		case 6:
 			day = 151 + day;
 			break;
-		case 7:
+		case 14:
 			day = 181 + day;
 			break;
 		case 8:
