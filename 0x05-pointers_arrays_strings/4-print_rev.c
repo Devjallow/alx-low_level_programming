@@ -3,19 +3,19 @@
 /**
  * print_rev - prints a string in reverse
  *@s: input string
- * 
+ *
  * Description: prints string, in reverse
  * Return: Alwyas (0).
  */
 
-void print_rev(char * s)
+void print_rev(char *s)
 {
 	int left, len, i;
 
 	len = 0;
 	left = 0;
 
-	for (i = 0; s[i] != '\n'; ++i)
+	for (i = 0; s[i] != '\0'; ++i)
 	{
 		len = i;
 	}
@@ -25,4 +25,3 @@ void print_rev(char * s)
 	}
 	_putchar('\n');
 }
-		
