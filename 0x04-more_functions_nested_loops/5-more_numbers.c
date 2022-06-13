@@ -3,19 +3,23 @@
 /**
  * more_numbers - prints numbers between 0 to 14
  * 10 times
- * Return: no return
+ * Return: no return.
  */
 void more_numbers(void)
 {
-	int i, ch;
+	int n, i;
 
-	for (i = 0; ch < 10; i++)
+	for (n = 0; ch < 10; n++)
 	{
-		for (ch = 0; ch < 15; ch++)
+		for (i = 0; i <= 14; i++)
 		{
-			if (ch >= 10)
-				_putchar((ch / 10) + 48);
-			_putchar((ch % 10) + 48);
+			if (i >= 10)
+			{
+				_putchar(i / 10 + '0');
+			}
+			else
+			{
+				_putchar(i % 10 + '0');
 		}
 		_putchar('\n');
 	}
