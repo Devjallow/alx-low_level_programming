@@ -5,7 +5,7 @@
  *@s: input string
  *
  * Description: prints string, in reverse
- * Return: Alwyas (0).
+ * Return: no return.
  */
 
 void print_rev(char *s)
