@@ -11,10 +11,9 @@
 void _puts(char *str)
 {
 
-	while (str[i] != '\0')
+	for (; *str != '\0' ; str++)
 	{
-		_puts(*str);
-		str++;
+		_putchar(*str);
 	}
-	_puts('\n');
+	_putchar('\n');
 }
