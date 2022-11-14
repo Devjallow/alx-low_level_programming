@@ -2,14 +2,12 @@
 
 /**
  * main - Prints name of the program
- * @argc: Prints number of argument
- * @argv: Prints argument name
  *
  * Return: Always success.
  */
 
-int main(int argc, char ** argv)
+int main(void)
 {
-	printf("%s\n", argv[0]);
+	printf("%s\n", __FILE__);
 	return (0);
 }
