@@ -10,7 +10,7 @@
  * Characteristic: This define the character a dog possess.
  */
 
-typedef struct
+typedef struct dog;
 {
 
 	char *name;
