@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- * typedef struct dog - Define character of dog
+ * struct dog - Define character of dog
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
@@ -10,14 +10,15 @@
  * Characteristic: This define the character a dog possess.
  */
 
-typedef struct dog;
+struct dog
 {
 
 	char *name;
 	float age;
 	char *owner;
 
-} dog;
+};
+
 typedef  struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
