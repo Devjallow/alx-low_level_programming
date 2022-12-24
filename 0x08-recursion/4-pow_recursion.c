@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * _pow_recursion - prints the power of a given numbers.
- * @x: First interger
- * @y: Second interger
- * Return - Always success 0.
+ * _pow_recursion - Prints the power of a given number n and y.
+ * @x: first interger
+ * @y: second interger
+ * Return: Always Success.
  */
 
 int _pow_recursion(int x, int y)
